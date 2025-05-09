@@ -1,0 +1,249 @@
+/* Custom styles for Attendance Management System */
+
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.dashboard-card .card-body {
+    padding: 20px;
+}
+
+.dashboard-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.dashboard-card .card-text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.dashboard-icon {
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+.login-form {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.attendance-table th, .attendance-table td {
+    vertical-align: middle;
+}
+
+.status-badge {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.status-present {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-absent {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-late {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.profile-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    background-color: #4e73df;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+.profile-details .row {
+    margin-bottom: 15px;
+}
+
+.profile-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.attendance-chart-container {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .dashboard-card .card-text {
+        font-size: 1.5rem;
+    }
+    
+    .dashboard-icon {
+        font-size: 2rem;
+    }
+}
+
+/* Hero section styling */
+.hero-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .btn {
+    transition: all 0.3s ease;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.hero-section .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Feature cards styling */
+.feature-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card .card-body {
+    padding: 2rem;
+}
+
+.feature-card .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card .card-text {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.icon-wrapper {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icon-wrapper i {
+    opacity: 0.8;
+}
+
+/* Stats section styling */
+.stats-section {
+    padding: 2rem 0;
+    background-color: #f8f9fc;
+    border-radius: 15px;
+    margin: 3rem 0;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #4e73df;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #4e73df;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stat-card {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #4e73df;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #6c757d;
+} 
